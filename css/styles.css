@@ -1,0 +1,281 @@
+/***************TAG SELECTORS************/
+        
+        body { background-color: #eaf6f6;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    
+       h1{color:rgb(29, 27, 27); font-size: 50px;
+          position: relative;    
+          float: left;
+          margin-left: 80px;
+    }
+       
+/***************CLASS SELECTORS************/
+.semi-title{
+    color:rgba(255, 255, 255, 0.877); font-size: 40px;
+}
+
+.heading{
+    width: 98%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    padding: 10px 36px;
+    display: flex;
+    background-color:  #060764;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    
+}
+
+
+/*****************nav bar selector**********/
+.nav{
+    position: relative;
+    border: none;
+    display: flex;
+    list-style-type: none;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav li{
+    margin: 0;
+}
+.nav li a {
+    position: relative;
+    padding: 10px 36px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #999;
+    display:inline-flex;
+    z-index: 3;
+}
+.nav li a.is-active{
+    color: #000;
+    text-decoration: underline;
+}
+.nav .slide{
+    position: absolute;
+    display: inline-flex;
+    height: 5px;
+    bottom: 5px;
+    transition: 0.5s cubic-bezier(0.23,  1, 0.32, 1.05);
+    z-index: 2;
+    background-color: #623be4;
+}
+/*********login Selector******/
+.login-div{
+    width: 430px;
+    height: 700px;
+    padding: 60px 35px 35px 35px;
+    position: relative;
+    left: 500px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px --13px 20px #ffffff;
+    
+}
+.log{
+    text-align: center;
+    font-family: 'loto',sans-serif,;
+    font-size: 25px;
+    font-stretch: extra-condensed;
+    color: #fff;
+    background: #060764;
+    position: relative;
+    top: 50px;
+    padding: 30px 200px;
+    border-radius:80px ;
+}
+
+.logo{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 
+    /*logo shadow*/
+    0px 0px 0px 5px #ecf0f3,
+    /*bottom right*/
+    8px 8px 15px #a7aaaf,
+    /*top left*/
+    -8px -8px 15px #ffffff
+    ;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.title{
+     text-align: center;
+     font-size: 28px;
+     padding-top: 24px;
+     letter-spacing: 0.5px;
+
+}
+.sub-title{
+     text-align: center;
+     font-size: 15px;
+     padding-top: 7px;
+     letter-spacing: 3px;
+}
+
+
+.fields{
+    width: 100%;
+    padding: 75px 5px 5px ;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+.username,.password{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1;
+        inset:  -8px -8px 8px #ffffff;
+}
+.fields svg{
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+.signin-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'loto',sans-serif,;
+    color: #fff;
+    text-align: center;
+    background: #060764;
+    box-shadow: 3px 3px 8px #b1b1b1 -3px -3px 8px #ffffff
+    }
+    .signin-button:hover{
+        background: #2f74db;
+    }
+    .signin-button:active{
+        background: #1da88a;
+    }
+    .link a {
+        text-decoration: none;
+    color: rgb(24, 19, 19);
+    font-size: 15px;
+    }
+.container-fluid{
+    background: #060764;
+    padding: 40px;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+ }
+ .grabformcss input {
+    width: 100%!important;
+    padding: 10px 15px;
+    background: #2e7296;
+    border: 0;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.skills{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.Expect-1{
+    border-radius: 20px;
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+}
+
+.significance-1{
+    border-radius:20px ;
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+}
+
+.main-pic{
+    width: 20%;
+}
+
+.bottom-container{
+    background-color: #a7aaaf;
+    padding: 50px 0 20px;
+    color:black;
+
+}
+
+a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cornsilk;
+}
+ 
+.copyright{
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
